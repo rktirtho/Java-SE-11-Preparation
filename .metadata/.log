@@ -780,3 +780,63 @@ java.net.UnknownHostException: spring.io: Temporary failure in name resolution
 	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:20.554
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:20.555
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2fc378cd[org.springframework.tooling.boot.ls:1.22.0.202009151440(id=1039)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:20.558
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:20.599
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:21.993
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:21.994
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2fc378cd[org.springframework.tooling.boot.ls:1.22.0.202009151440(id=1039)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:21.994
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.597
+!MESSAGE Boot LS startup time from start to initialized: 1602ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.654
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NoQwkrooisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.655
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.656
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.657
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.659
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.660
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.660
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.662
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.663
+!MESSAGE buffering callback sts4.classpath.NoQwkroo Basic Java false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.663
+!MESSAGE executing callback sts4.classpath.NoQwkroo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.666
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NoQwkroo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-02 23:41:23.729
+!MESSAGE executing callback sts4.classpath.NoQwkroo SUCCESS [done]
