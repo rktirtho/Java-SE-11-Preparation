@@ -1,7 +1,7 @@
 public class Test {
     public static void main(String[] args) {
 
-        var testValue = "Java 11 Successfully installed";
-        System.out.println(testValue);
+        String $df = "Java 11 Successfully installed";
+        System.out.println($df);
     }
 }
