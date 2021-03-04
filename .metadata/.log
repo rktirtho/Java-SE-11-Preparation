@@ -2499,3 +2499,15 @@ java.net.UnknownHostException: dist.springsource.com: Temporary failure in name 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 00:05:38.779
 !MESSAGE executing callback sts4.classpath.zLzYgZsB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 00:23:01.366
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zLzYgZsB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 00:23:01.367
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zLzYgZsB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 00:23:01.367
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-04 00:23:01.367
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zLzYgZsB => OK

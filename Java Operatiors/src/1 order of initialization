@@ -1,0 +1,14 @@
+
+
+==> When construct is called, then its goes to field level, if there need any process it execute them. then
+    return to constructor block code.
+==> You can to assign value on field before decleared. On the other hand, constructor could be declered
+    before field.
+==> char can hold a higher positive numeric value than short , but cannot hold any negative numbers.
+==> o for Octal, ox for haxadecimal, ob for binary
+==> int million2 = 1_000_000; this is allow in java.
+==> a reference “points” to an object by storing the memory address where the object is located, a
+    concept referred to as a pointer. Unlike other languages, Java does not allow you to learn what
+    the physical memory address is. You can only use the reference to refer to the object. Let’s take
+    a look at some examples that dec
+==> Primitive types has default value for class level. But it has not any default value in method level.
