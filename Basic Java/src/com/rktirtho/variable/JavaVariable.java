@@ -2,14 +2,11 @@ package com.rktirtho.variable;
 
 public class JavaVariable {
 	
-	public int depth = 50;
+public static void main(String[] args) {
+	System.out.println(Student.countryCode);
+}	
 	
-	public void test() {
-		for(int i =0;i<1;i++) {
-		int depth = 54;	
-		}
-		
-		System.out.println(depth);
-	}
+	
+	
 
 }

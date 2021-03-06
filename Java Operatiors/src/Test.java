@@ -26,6 +26,9 @@ public class Test {
 
         Test test = new Test();
 
+
+
+
         int __=10;
         System.out.println(__);
 
@@ -37,5 +40,9 @@ public class Test {
 
     {
         System.out.println("end of class");
+    }
+
+    public void var(){
+
     }
 }
