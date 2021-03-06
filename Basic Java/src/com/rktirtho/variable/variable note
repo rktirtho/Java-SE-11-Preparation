@@ -1,3 +1,35 @@
-There should be any character after "_" for java identifier
+==> When construct is called, then its goes to field level, if there need any process it execute them. then
+    return to constructor block code.
+==> You can to assign value on field before decleared. On the other hand, constructor could be declered
+    before field.
+==> char can hold a higher positive numeric value than short , but cannot hold any negative numbers.
+==> o for Octal, ox for haxadecimal, ob for binary
+==> int million2 = 1_000_000; this is allow in java.
+==> a reference “points” to an object by storing the memory address where the object is located, a
+    concept referred to as a pointer. Unlike other languages, Java does not allow you to learn what
+    the physical memory address is. You can only use the reference to refer to the object. Let’s take
+    a look at some examples that dec
+==> Primitive types has default value for class level. But it has not any default value in method level.
 
-"$" (dollar sign) sign is valid identifier
+
+==> There should be any character after "_" for java identifier
+
+==> "$" (dollar sign) sign is valid identifier
+
+
+Review of var Rules
+====================
+We complete this section by summarizing all of the various rules for using var in your
+code. Here’s a quick review of the var rules:
+	1. A var is used as a local variable in a constructor, method, or initializer block.
+	2. A var cannot be used in constructor parameters, method parameters, instance vari-
+	   ables, or class variables.
+	3. A var is always initialized on the same line (or statement) where it is declared.
+	4. The value of a var can change, but the type cannot.
+	5. A var cannot be initialized with a null value without a type.
+	6. A var is not permitted in a multiple-variable declaration.
+	7. A var is a reserved type name but not a reserved word, meaning it can be used as an
+	   identifier except as a class, interface, or enum name.
+That’s a lot of rules, but we hope most are pretty straightforward. Since var is new to
+Java since the last exam, expect to see it used frequently on the exam. You’ll also be seeing
+numerous ways var can be used throughout this book.
