@@ -1,0 +1,15 @@
+package com.rktirtho.variable;
+
+public class StringDemo {
+	
+	public static void main(String[] args) {
+		String a = "Hello";
+		String b =a;
+		String c ="Hello ";
+		
+		
+		System.out.println(a == c);
+		
+	}
+
+}

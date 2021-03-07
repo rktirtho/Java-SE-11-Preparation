@@ -30,8 +30,9 @@ public static void main(String[] args) {
 	
 	String name; 			// has not any default value.has to initialized before use
 	
+	int ammount= 10__00_00; 
 	
-	
+	System.out.println(ammount);	
 	
 	
 	System.out.println(Student.countryCode);
