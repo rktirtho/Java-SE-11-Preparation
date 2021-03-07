@@ -26,6 +26,7 @@ public class StringDemo {
 		
 		System.out.println("message = "+ message +" "+ c1);
 		
+		message.
 		
 	}
 
