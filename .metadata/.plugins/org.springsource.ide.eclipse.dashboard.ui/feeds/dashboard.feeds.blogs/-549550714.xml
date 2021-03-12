@@ -5,7 +5,94 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-03-11T13:32:00Z</updated>
+  <updated>2021-03-11T20:00:00Z</updated>
+  <entry>
+    <title>A Bootiful Podcast: FF4J project creator and DataStax Astra SDK engineer Cedrick Lunven</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/03/11/a-bootiful-podcast-ff4j-project-creator-and-datastax-astra-sdk-engineer-cedrick-lunven" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2021-03-11:4382</id>
+    <updated>2021-03-11T20:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! In this episode, &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to FF4J project creator and DataStax Astra SDK engineer &lt;a href="http://twitters.com/clunven"&gt;Cedrick Lunven (@clunven)&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe title="FF4J project creator and DataStax Astra SDK engineer Cedrick Lunven" height="122" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/izywu-fd5bae?from=pb6admin&amp;download=1&amp;version=1&amp;auto=0&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Helvetica&amp;skin=1&amp;pfauth=&amp;btn-skin=107"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Deploy Spring Boot applications by leveraging enterprise best practices – Azure Spring Cloud Reference Architecture</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/03/11/deploy-spring-boot-applications-by-leveraging-enterprise-best-practices-azure-spring-cloud-reference-architecture" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2021-03-10:4380</id>
+    <updated>2021-03-11T18:00:00Z</updated>
+    <content type="html">&lt;h1&gt;&lt;a href="#deploy-spring-boot-applications-by-leveraging-enterprise-best-practices-azure-spring-cloud-reference-architecture" class="anchor" name="deploy-spring-boot-applications-by-leveraging-enterprise-best-practices-azure-spring-cloud-reference-architecture"&gt;&lt;/a&gt;Deploy Spring Boot applications by leveraging enterprise best practices – Azure Spring Cloud Reference Architecture&lt;/h1&gt;
+&lt;p&gt;Today, we’re excited to announce the availability of the Azure Spring Cloud Reference Architecture. You can get started by deploying the &lt;a href="https://docs.microsoft.com/en-us/azure/spring-cloud/spring-cloud-reference-architecture"&gt;Azure Spring Cloud Reference Architecture&lt;/a&gt; to accelerate and secure Spring Boot applications in the cloud at scale using validated best practices.&lt;/p&gt;
+&lt;p&gt;Over the past year, we worked with many enterprise customers to learn about their scenarios including thoughts on scaling properly, security, deployment, and cost requirements. Many of these customers have thousands of Spring Boot applications running in on-premises data centers. As they migrate these applications to cloud, they need battle-tested architectures that instill confidence to meet the requirements set forth by their IT departments and/or regulatory bodies. In many customer environments, they also need to show direct mappings from architectures to industry-defined security controls and benchmarks. We thank these customers for the opportunity to work with them, and for helping us to build an Azure Spring Cloud Reference Architecture. Using this reference architecture, you can deploy and customize to meet your specific requirements and showcase pre-defined mappings to security controls and benchmarks.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&amp;ldquo;The availability of Azure Spring Cloud Reference architecture reduced our internal cycles of researching architecture options and Spring Cloud feature sets, which allowed us to rapidly determine how we would want to implement and scale globally.&amp;rdquo; &amp;ndash; Devon Yost, Enterprise Architect, &lt;a href="https://www.digitalrealty.com/"&gt;Digital Realty Trust&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;“Congratulations to you and your team for creating and providing the Azure Spring Cloud Reference Architecture free to all customers. The reference architecture is a great way for users to compare their design to how the experts at Microsoft design deployments. It is incredible for the reference architecture to include deployments using multiple technologies. We were able to compare the reference Terraform implementation and quickly understand the architecture. We have even started testing Azure DNS as highlighted in the architecture to manage our DNS using Infrastructure as Code principles.” -Armando Guzman, Principal Software Engineer, Unified Commerce, &lt;a href="https://www.raleys.com/about/raleys-corporate-fact-sheet/"&gt;Raley’s &lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;h2&gt;&lt;a href="#ease-of-deploying-java-applications" class="anchor" name="ease-of-deploying-java-applications"&gt;&lt;/a&gt;Ease of Deploying Java Applications&lt;/h2&gt;
+&lt;p&gt;Azure Spring Cloud is jointly built, operated, and supported by Microsoft and VMware. It is a fully managed service for Spring Boot applications that lets you focus on building the applications that run your business without the hassle of managing infrastructure. The service incorporates Azure compute, network, and storage services in a well-architected design, reducing the number of infrastructure decisions. The Azure Spring Cloud Reference Architecture provides a deployable design that is mapped to industry security benchmarks providing a head start for compliance approval. The implementation and configuration of each service referenced in the architecture was evaluated against security controls to ensure a secure design. &lt;/p&gt;&lt;h2&gt;&lt;a href="#security-and-managed-virtual-network" class="anchor" name="security-and-managed-virtual-network"&gt;&lt;/a&gt;Security and Managed Virtual Network&lt;/h2&gt;
+&lt;p&gt;Security is a key tenet of Azure Spring Cloud, and you can secure Spring Boot applications by deploying to Azure Spring Cloud in Managed Virtual Networks (VNETs). With VNETs, you can secure the perimeters around your Spring Boot applications and other dependencies by: &lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Isolating Spring Cloud from the Internet and placing your applications and Azure Spring Cloud in your private networks.&lt;/li&gt;
+  &lt;li&gt;Selectively exposing Spring Boot applications as Internet-facing applications.&lt;/li&gt;
+  &lt;li&gt;Enabling applications to interact with on-premises systems such as databases, messaging systems, and directories.&lt;/li&gt;
+  &lt;li&gt;Controlling inbound and outbound network communications for Azure Spring Cloud.&lt;/li&gt;
+  &lt;li&gt;Composing with Azure network resources such as Application Gateway, Azure Firewall, Azure Front Door, and Express Route, and popular network products such as Palo Alto Firewall, F5 Big-IP, Cloudflare, and Infoblox.&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;&lt;a href="#reliable-deployment-patterns" class="anchor" name="reliable-deployment-patterns"&gt;&lt;/a&gt;Reliable Deployment Patterns&lt;/h2&gt;
+&lt;p&gt;When you deploy a collection of Azure Resources, including Azure Spring Cloud, in your private network and interconnect these resources with on-premises systems, you can be faced with multiple questions such as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;How do you manage costs to maximize the value delivered?&lt;/li&gt;
+  &lt;li&gt;How do you build operational processes to keep the system up and running in production?&lt;/li&gt;
+  &lt;li&gt;How do you account for performance efficiency where your system can adapt to changes in load?&lt;/li&gt;
+  &lt;li&gt;How can your system recover from failures and continue to function?&lt;/li&gt;
+  &lt;li&gt;How do you protect applications and data from threats and risks?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To address these questions, you can start with a trial-and-error approach but that takes time. The time it takes to get it right and achieve these outcomes is time not spent on your organizational objectives. A repeatable, tested deployment pattern can help you to address issues from the start.&lt;/p&gt;
+&lt;p&gt;The Azure Spring Cloud Reference Architecture addresses the following solution design components:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Hub and spoke alignment&lt;/strong&gt;. Aligns with the Azure landing zone, which enables application migrations and greenfield development at enterprise-scale in Azure. A landing zone is an environment for hosting your workloads, pre-provisioned through infrastructure as code.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Well-Architected Framework.&lt;/strong&gt; Incorporates the guiding pillars of the Azure Well-Architected Framework to improve the quality of a workload. The framework consists of five pillars of architecture excellence: Cost Optimization, Operational Excellence, Performance Efficiency, Reliability, and Security.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Perimeter security.&lt;/strong&gt; Secures the perimeter for full egress management, managing secrets and certificates using Azure Key Vault. Wires up with networking resources of your choice, incorporating your IT-team-supplied route tables filled with user-defined network routes. And it is ready for interacting with private links exposed by Azure resources or endpoints exposed by your on-premises systems.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Authorized access to deployed environments.&lt;/strong&gt; Includes securing and authorizing access into a deployed environment through a jump host machine with necessary development tools via Azure Bastion.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Monitoring.&lt;/strong&gt; Enables observability by wiring up for Application Performance Monitoring (APM) and publishing logs and metrics for all the resources through Azure Monitor. This provides the option to aggregate logs and metrics in an aggregator of your choice, such as Azure Log Analytics, Elastic Stack, or Splunk.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smoke tests.&lt;/strong&gt; Supplies deployment scripts to deploy a line of business system and to smoke test the deployed environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src="https://raw.githubusercontent.com/Azure/azure-spring-cloud-reference-architecture/main/images/architecture-public.svg"/&gt;
+&lt;p&gt;Figure 1 - the diagram represents a well-architected hub and spoke design for applications selectively exposed as public applications&lt;/p&gt;&lt;h2&gt;&lt;a href="#start-here" class="anchor" name="start-here"&gt;&lt;/a&gt;Start Here&lt;/h2&gt;
+&lt;p&gt;This &lt;a href="https://docs.microsoft.com/en-us/azure/spring-cloud/spring-cloud-reference-architecture"&gt;Azure Spring Cloud Reference Architecture&lt;/a&gt; is a foundation using a typical enterprise hub and spoke design for the use of Azure Spring Cloud. In the design, Azure Spring Cloud is deployed in a single spoke that is dependent on shared services hosted in the hub.&lt;/p&gt;
+&lt;p&gt;For an implementation of this architecture, see the &lt;a href="https://github.com/Azure/azure-spring-cloud-reference-architecture/tree/main/terraform"&gt;Azure Spring Cloud Reference Architecture repository on GitHub&lt;/a&gt; . Deployment options for this architecture include ready-to-go &lt;a href="https://github.com/Azure/azure-spring-cloud-reference-architecture/tree/main/ARM"&gt;Azure Resource Manager (ARM)&lt;/a&gt;, &lt;a href="https://github.com/Azure/azure-spring-cloud-reference-architecture/tree/main/terraform"&gt;Terraform&lt;/a&gt;, and &lt;a href="https://github.com/Azure/azure-spring-cloud-reference-architecture/tree/main/CLI"&gt;Azure CLI&lt;/a&gt; scripts. The artifacts in this repository provide groundwork that you can customize for your environment and automated provisioning pipelines.&lt;/p&gt;&lt;h2&gt;&lt;a href="#meet-the-team" class="anchor" name="meet-the-team"&gt;&lt;/a&gt;Meet the Team&lt;/h2&gt;
+&lt;img src="https://raw.githubusercontent.com/Azure/azure-spring-cloud-reference-architecture/main/images/team-mosaic-image.jpg"/&gt;
+&lt;p&gt;This Azure Spring Cloud Reference Architecture is created and maintained by Cloud Solution Architects, Java experts, and content authors at Microsoft, here in alphabetical order and row-wise from left to right:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Armen Kaleshian – Cloud Solution Architect&lt;/li&gt;
+  &lt;li&gt;Arshad Azeem – Cloud Solution Architect&lt;/li&gt;
+  &lt;li&gt;Asir Selvasingh – Architect, Java on Azure&lt;/li&gt;
+  &lt;li&gt;Bowen Wan – Software Engineering Manager, Java on Azure&lt;/li&gt;
+  &lt;li&gt;Brendan Mitchell – Content Developer&lt;/li&gt;
+  &lt;li&gt;David Apolinar – Cloud Solution Architect&lt;/li&gt;
+  &lt;li&gt;Dylan Reed – Customer Engineer&lt;/li&gt;
+  &lt;li&gt;Karl Erickson – Content Developer&lt;/li&gt;
+  &lt;li&gt;Matt Felton – Cloud Solution Architect&lt;/li&gt;
+  &lt;li&gt;Ryan Hudson – Cloud Solution Architect&lt;/li&gt;
+  &lt;li&gt;Troy Ault – Cloud Solution Architect&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;&lt;a href="#learn-more-about-azure-spring-cloud-and-start-building-today" class="anchor" name="learn-more-about-azure-spring-cloud-and-start-building-today"&gt;&lt;/a&gt;Learn more about Azure Spring Cloud and start building today!&lt;/h2&gt;
+&lt;p&gt;Azure Spring Cloud abstracts away the complexity of infrastructure management and Spring Cloud middleware management, so you can focus on building your business logic and let Azure take care of dynamic scaling, patches, security, compliance, and high availability. With a few steps, you can provision Azure Spring Cloud, create applications, deploy, and scale Spring Boot applications and start monitoring in minutes. We’ll continue to bring more developer-friendly and enterprise-ready features to Azure Spring Cloud. &lt;/p&gt;
+&lt;p&gt;We’d love to hear how you are building impactful solutions using Azure Spring Cloud. Get started with the &lt;a href="https://docs.microsoft.com/en-us/azure/spring-cloud/spring-cloud-reference-architecture"&gt;Azure Spring Cloud Reference Architecture&lt;/a&gt; and these resources!&lt;/p&gt;&lt;h3&gt;&lt;a href="#resources" class="anchor" name="resources"&gt;&lt;/a&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Learn using an &lt;a href="https://docs.microsoft.com/en-us/learn/modules/azure-spring-cloud-workshop/"&gt;MS Learn module&lt;/a&gt; or &lt;a href="https://github.com/microsoft/azure-spring-cloud-training"&gt;self-paced workshop&lt;/a&gt; on GitHub&lt;/li&gt;
+  &lt;li&gt;Learn &lt;a href="https://docs.microsoft.com/en-us/azure/spring-cloud/"&gt;more&lt;/a&gt; about implementing solutions on Azure Spring Cloud&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/Azure-Samples/spring-petclinic-microservices"&gt;Deploy&lt;/a&gt; a distributed version of Spring Petclinic built with Spring Cloud&lt;/li&gt;
+  &lt;li&gt;Migrate your &lt;a href="https://docs.microsoft.com/en-us/azure/developer/java/migration/migrate-spring-boot-to-azure-spring-cloud"&gt;Spring Boot&lt;/a&gt;, &lt;a href="https://docs.microsoft.com/en-us/azure/developer/java/migration/migrate-spring-cloud-to-azure-spring-cloud"&gt;Spring Cloud&lt;/a&gt;, and &lt;a href="https://docs.microsoft.com/en-us/azure/developer/java/migration/migrate-tomcat-to-azure-spring-cloud"&gt;Tomcat&lt;/a&gt; applications to Azure Spring Cloud&lt;/li&gt;
+  &lt;li&gt;Wire Spring applications to &lt;a href="https://docs.microsoft.com/en-us/azure/developer/java/spring-framework/"&gt;interact with Azure services&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;For feedback and questions, please &lt;a href="mailto:AzureSpringCloud-Talk@service.microsoft.com"&gt;e-mail&lt;/a&gt; us.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Announcing Spring Native Beta!</title>
     <link rel="alternate" href="https://spring.io/blog/2021/03/11/announcing-spring-native-beta" />
@@ -155,7 +242,7 @@ public class WebClientApplication {
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
-&lt;p&gt;The last and probably most powerful mechanism available when working with the ahead-of-time transformation system is the capability to automatically generate native-optimized code (source and bytecode) using the closed-world assumptions introduced by Spring Boot deployment model combined with GraalVM native image characteristics. The goal here is to limit the amount of required extra native configuration to increase the compatibility, by using code constructs that can be analyzed out of the box by the native image compiler, and lower the footprint by reducing the amount of configuration required for reflection, resources or proxies. A concrete example of that is an ahead-of-time transformation of the various &lt;a href="https://github.com/spring-projects/spring-boot/blob/master/spring-boot-project/spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories"&gt;&lt;code&gt;spring.factories&lt;/code&gt;&lt;/a&gt; (the extension mechanism behind Spring Boot) to an optimized programmatic version that requires no reflection and that filters out unnecessary entries in the context for your application.&lt;/p&gt;
+&lt;p&gt;The last and probably most powerful mechanism available when working with the ahead-of-time transformation system is the capability to automatically generate native-optimized code (source and bytecode) using the closed-world assumptions introduced by Spring Boot deployment model combined with GraalVM native image characteristics. The goal here is to limit the amount of required extra native configuration to increase the compatibility, by using code constructs that can be analyzed out of the box by the native image compiler, and lower the footprint by reducing the amount of configuration required for reflection, resources or proxies. A concrete example of that is an ahead-of-time transformation of the various &lt;a href="https://github.com/spring-projects/spring-boot/blob/master/spring-boot-project/spring-boot-autoconfigure/src/main/resources/META-INF/spring.factories"&gt;&lt;code&gt;spring.factories&lt;/code&gt;&lt;/a&gt; (the extension mechanism behind Spring Boot) to an optimized programmatic version that requires no reflection and that filters out unnecessary entries in the context of your application.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;This is just a start for Spring AOT, we intend to add even more powerful transformations like &lt;a href="https://github.com/spring-projects-experimental/spring-native/issues/386"&gt;&lt;code&gt;@Configuration&lt;/code&gt; to functional configuration&lt;/a&gt; to replace runtime reflection by an ahead-of-time analysis that will automatically generate configuration classes that will use programmatic constructs like lambdas and method references. This will allow the GraalVM native image compiler to understand Spring configurations out of the box without needing any reflection configuration or &lt;code&gt;*.class&lt;/code&gt; resources.&lt;/p&gt;
@@ -636,74 +723,6 @@ Artem&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-vault/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault/releases/tag/2.3.1"&gt;Release &lt;code&gt;2.3.1&lt;/code&gt; on GitHub&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-vault/docs/2.3.1/reference/html/"&gt;Documentation for &lt;code&gt;2.3.1&lt;/code&gt;&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-vault"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Framework 5.3.4 and 5.2.13 available now</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/02/16/spring-framework-5-3-4-and-5-2-13-available-now" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Stéphane Nicoll</name>
-    </author>
-    <id>tag:spring.io,2021-02-16:4362</id>
-    <updated>2021-02-16T12:07:00Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;5.3.4&lt;/code&gt; and &lt;code&gt;5.2.13&lt;/code&gt; are available now.&lt;/p&gt;
-&lt;p&gt;Spring Framework &lt;code&gt;5.3.4&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.3.4"&gt;62 fixes and improvements&lt;/a&gt;. Spring Framework &lt;code&gt;5.2.13&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.2.13.RELEASE"&gt;18 selected fixes and improvements&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Stay tuned for follow-up Spring Boot releases later this week.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.3.4/spring-framework-reference"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Authorization Server 0.1.0 available now</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/02/11/spring-authorization-server-0-1-0-available-now" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Joe Grandja</name>
-    </author>
-    <id>tag:spring.io,2021-02-12:4361</id>
-    <updated>2021-02-12T03:23:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the team and everyone who has contributed, it is my pleasure to announce the general availability of Spring Authorization Server 0.1.0.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;You can download it from &lt;a href="https://repo.spring.io/release/"&gt;repo.spring.io&lt;/a&gt; and Maven Central by using the module coordinates:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code data-lang="groovy"&gt;compile 'org.springframework.security.experimental:spring-security-oauth2-authorization-server:0.1.0'&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;For additional details on this new project, see the &lt;a href="https://spring.io/blog/2020/04/15/announcing-the-spring-authorization-server"&gt;initial announcement&lt;/a&gt; and &lt;a href="https://github.com/spring-projects-experimental/spring-authorization-server"&gt;project page&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;The main features delivered in this release are:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;OpenID Connect Core 1.0&amp;#8201;&amp;#8212;&amp;#8201;&lt;a href="https://openid.net/specs/openid-connect-core-1_0.html#CodeFlowAuth"&gt;Authorization Code Flow&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;OpenID Connect Discovery 1.0&amp;#8201;&amp;#8212;&amp;#8201;&lt;a href="https://openid.net/specs/openid-connect-discovery-1_0.html#ProviderConfig"&gt;OpenID Provider Configuration&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;JSON Web Token (JWT) headers and claims customizer&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;See the &lt;a href="https://github.com/spring-projects-experimental/spring-authorization-server/releases/tag/0.1.0"&gt;release notes&lt;/a&gt; for complete details.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;To get started using Spring Authorization Server, see the &lt;a href="https://github.com/spring-projects-experimental/spring-authorization-server/tree/master/samples/boot/oauth2-integration"&gt;sample&lt;/a&gt; to become familiar with setup and configuration.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;We would love to gather your feedback as we strive to improve and build upon this release.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects-experimental/spring-authorization-server"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects-experimental/spring-authorization-server/issues"&gt;GitHub Issues&lt;/a&gt; |  &lt;a href="https://app.zenhub.com/workspaces/authorization-server-5e8f3182b5e8f5841bfc4902/board?repos=248032165"&gt;ZenHub Board&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
