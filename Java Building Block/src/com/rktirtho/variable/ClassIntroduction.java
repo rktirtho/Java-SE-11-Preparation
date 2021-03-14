@@ -1,16 +1,20 @@
 package com.rktirtho.variable;
 
 public class ClassIntroduction {
-	
+	int num=20;
 	private String firstName;		// Instance Variable
 	private String lastName;		// Instance Variable
 	
 	// Block of Code
 	// This block will execut before constructor body execution
 	{
-		
+		int num=0;
 		System.out.println("This block will execut before constructor body execution");
+		
 	
+	}
+	{
+		
 	}
 	
 	
