@@ -3,6 +3,6 @@ package com.rktirtho.ocp.labmdas;
 @FunctionalInterface
 public interface Adder {
 	
-	public void print();
+	public boolean print(String message,String d);
 
 }
