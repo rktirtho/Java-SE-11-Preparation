@@ -11,5 +11,7 @@ public class Elephent extends Mammal{
 		super(a);
 		this.name =name;
 	}
+	
+	public void printInfo() {}
 
 }
