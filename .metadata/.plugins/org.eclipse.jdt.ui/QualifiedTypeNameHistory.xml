@@ -30,4 +30,7 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.constructordec.Mammal"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.constructordec.Elephent"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.polymorthism.DinalDuck"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.polymorthism.Duck"/>
 </qualifiedTypeNameHistroy>
