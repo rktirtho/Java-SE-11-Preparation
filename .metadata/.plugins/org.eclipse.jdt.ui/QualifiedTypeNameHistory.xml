@@ -33,4 +33,7 @@
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.polymorthism.DinalDuck"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.polymorthism.Duck"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.abstraction.constructor.Panda"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.abstraction.constructor.Animal"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.abstraction.constructor.Behaviours"/>
 </qualifiedTypeNameHistroy>
