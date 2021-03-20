@@ -1,5 +1,7 @@
 package com.rktirtho.ocp.interfacing;
 
-public interface DefaultInterface {
+import java.io.Serializable;
+
+public interface DefaultInterface extends Iterable<String>, Serializable{
 
 }
