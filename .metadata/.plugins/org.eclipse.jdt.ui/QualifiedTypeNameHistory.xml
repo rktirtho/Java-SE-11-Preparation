@@ -29,7 +29,6 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.constructordec.Mammal"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.constructordec.Elephent"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.polymorthism.DinalDuck"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.polymorthism.Duck"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.abstraction.constructor.Panda"/>
@@ -39,4 +38,7 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.innerclass.Zoo.Ticket"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>
