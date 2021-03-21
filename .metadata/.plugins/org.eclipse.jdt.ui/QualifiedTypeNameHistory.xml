@@ -38,4 +38,5 @@
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.innerclass.Zoo.Ticket"/>
 </qualifiedTypeNameHistroy>
