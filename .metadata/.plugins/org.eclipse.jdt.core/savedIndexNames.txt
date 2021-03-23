@@ -4,7 +4,6 @@ INDEX VERSION 1.131+/home/rktirtho/Documents/workspace-spring-tool-suite-4-4.7.1
 3147559550.index
 1167056398.index
 712638260.index
-3247358713.index
 1189947467.index
 3303407376.index
 579392450.index
