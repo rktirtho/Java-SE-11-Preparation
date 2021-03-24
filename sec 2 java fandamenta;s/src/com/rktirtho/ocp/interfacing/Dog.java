@@ -18,5 +18,11 @@ public class Dog implements Run, Walk{
 		System.out.println(Walk.super.seppd());
 	}
 	
+	@Override
+	public void doAnything() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 
 }

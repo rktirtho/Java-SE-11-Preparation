@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="com.rktirtho.ocp.arrays.ArraySorting"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
     <fullyQualifiedTypeName name="com.sun.imageio.plugins.common.SingleTileRenderedImage"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -19,7 +18,6 @@
     <fullyQualifiedTypeName name="java.lang.Number"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.core.common.type.ArithmeticOpTable.BinaryOp.Add"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.labmdas.Adder"/>
-    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.labmdas.Multiplier"/>
     <fullyQualifiedTypeName name="com.rktirtho.root.Main"/>
     <fullyQualifiedTypeName name="com.rktirtho.encapsulation.protecteddemo.animal.Animal"/>
@@ -34,11 +32,24 @@
     <fullyQualifiedTypeName name="com.rktirtho.ocp.abstraction.constructor.Animal"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.abstraction.constructor.Behaviours"/>
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.innerclass.Zoo.Ticket"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.enums.Session"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.enums.DetailsSession"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.enums.AbstructEnum"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.innerclasse.Student.Address"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.innerclasse.Student"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.innerclasse.StaticInnerClass"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.innerclasse.StaticInnerClass.Inner"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.innerclasse.AnnonimousClass.SellProduct"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.innerclasse.AnnonimousClass"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.innerclasse.ClassA"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.interfacing.Walk"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 </qualifiedTypeNameHistroy>

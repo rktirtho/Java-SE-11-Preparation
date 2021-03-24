@@ -20,6 +20,7 @@ public interface Walk {
 	private static void printLog() {
 		System.out.println("Walk class");
 	}
+	abstract void doAnything ();
 	
 	
 
