@@ -52,4 +52,12 @@
     <fullyQualifiedTypeName name="com.rktirtho.ocp.interfacing.Walk"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.target.Auto"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.rotation.Service"/>
+    <fullyQualifiedTypeName name="java.lang.Deprecated"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.documentation.LoginService"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Repeatable"/>
+    <fullyQualifiedTypeName name="com.rktirtho.ocp.repetable.Risks"/>
 </qualifiedTypeNameHistroy>
