@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class App {
 	public static void main(String[] args) {
-		File file = new File("/home/rktirtho/java-io/besic.txt");
+		File file = new File("/home/rktirtho/java-io/lorem.txt");
 		if (!file.exists()) {
 			System.out.println("file is not available");
 			return;
