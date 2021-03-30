@@ -10181,3 +10181,195 @@ java.net.UnknownHostException: dist.springsource.com: Temporary failure in name 
 	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:991)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:53.636
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:53.636
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@356c8fa9[org.springframework.tooling.boot.ls:1.22.0.202009151440(id=1039)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:53.636
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.766
+!MESSAGE Boot LS startup time from start to initialized: 1129ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.806
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uOVIJeYKisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.806
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.807
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.807
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.808
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.808
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.808
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.uOVIJeYK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.811
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.811
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.812
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Security false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.812
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.812
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.812
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Advance Class Design false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.812
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.812
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.813
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Annotation false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.813
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.813
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.813
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Basic Java false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.813
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.813
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.814
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Class Design false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.814
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.816
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.816
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Core Java APIs false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.816
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.816
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.816
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Exception false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.817
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.817
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.817
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK File IO false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.817
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.817
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.817
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Generics and Collectons false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.818
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.818
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.818
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Java Building Block false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.818
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.819
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.819
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Java Operators false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.819
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.819
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.819
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Lambdas and Function false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.819
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.820
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.820
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK MakingDecision false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.820
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.820
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.820
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Method and Encpsulation false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.820
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.821
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.821
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK Modular false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.821
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.821
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.821
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK NIO.2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.822
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.824
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.824
+!MESSAGE buffering callback sts4.classpath.uOVIJeYK sec 2 java fandamenta;s false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.825
+!MESSAGE executing callback sts4.classpath.uOVIJeYK 17 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-03-30 23:18:54.867
+!MESSAGE executing callback sts4.classpath.uOVIJeYK SUCCESS [done]
