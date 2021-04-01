@@ -3,6 +3,7 @@ package com.rktirtho.ocp.collection;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.LinkedList;
+import java.util.List;
 
 public class App {
 
@@ -19,6 +20,14 @@ public class App {
 		LinkedList<String> linkedList =new LinkedList<String>();
 		linkedList.add("Karim");
 //		linkedList.re
+		
+		List<Integer> collection2 = new ArrayList<Integer>();
+		collection2.add(4);
+
+		System.out.println(collection2);
+		collection2.remove(4);
+		System.out.println(collection2);
+		
 		
 		
 	}
