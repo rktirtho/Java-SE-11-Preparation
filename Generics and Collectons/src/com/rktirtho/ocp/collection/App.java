@@ -21,11 +21,12 @@ public class App {
 		linkedList.add("Karim");
 //		linkedList.re
 		
-		List<Integer> collection2 = new ArrayList<Integer>();
-		collection2.add(4);
+		List<String> collection2 = new ArrayList<>();
+		collection2.add("Rejaul");
+		collection2.add("Kerim");
 
 		System.out.println(collection2);
-		collection2.remove(4);
+		collection2.remove(1);
 		System.out.println(collection2);
 		
 		
