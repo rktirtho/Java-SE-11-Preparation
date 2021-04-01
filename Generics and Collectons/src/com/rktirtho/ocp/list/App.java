@@ -29,6 +29,7 @@ public static void main(String[] args) {
 	
 	ArrayList<String> teams = supplier.get();
 	teams.add("ARG");
+	teams.add("ARG");
 	teams.add("BRA");
 	teams.add("BAN");
 	teams.add("CHI");
@@ -50,8 +51,9 @@ public static void main(String[] args) {
 	
 	while(iterator.hasNext()) {
 		
-		System.out.print(consumer.apply(iterator.next()));
+//		System.out.print(consumer.apply(iterator.next()));
 		System.out.print(consumers.apply(iterator.next(),","));
 		}
+	System.out.println(teams.get(0).hashCode() == teams.get(1).hashCode());
 }
 }
