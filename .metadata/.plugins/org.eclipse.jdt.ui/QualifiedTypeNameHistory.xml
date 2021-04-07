@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.net.URI"/>
-    <fullyQualifiedTypeName name="java.nio.file.LinkOption"/>
-    <fullyQualifiedTypeName name="java.nio.file.FileSystem"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
-    <fullyQualifiedTypeName name="java.nio.file.FileSystems"/>
-    <fullyQualifiedTypeName name="java.nio.file.Files"/>
-    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
-    <fullyQualifiedTypeName name="java.nio.file.Path"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
-    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
-    <fullyQualifiedTypeName name="com.rktirtho.ocp.test.Animal"/>
-    <fullyQualifiedTypeName name="com.rktirtho.ocp.basic.LearnToSpeach"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.basic.DuckTrainer"/>
     <fullyQualifiedTypeName name="jdk.nashorn.internal.codegen.MethodEmitter"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
@@ -41,7 +26,6 @@
     <fullyQualifiedTypeName name="java.lang.Number"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.generic.UpperBoundedWildcards.Bird"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.generic.UpperBoundedWildcards.Sparrow"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.util.function.Supplier"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -60,4 +44,20 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.time.ZonedDateTime"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.Month"/>
+    <fullyQualifiedTypeName name="java.text.DateFormat"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="sun.security.krb5.internal.LocalSeqNumber"/>
+    <fullyQualifiedTypeName name="jdk.vm.ci.meta.Local"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="com.rkltirtho.ocp.ocalization_and_internationalization.NumberFormate"/>
+    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
+    <fullyQualifiedTypeName name="java.text.NumberFormat"/>
 </qualifiedTypeNameHistroy>
