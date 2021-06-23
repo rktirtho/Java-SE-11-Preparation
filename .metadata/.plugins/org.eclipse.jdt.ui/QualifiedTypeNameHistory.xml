@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.rktirtho.ocp.sortingdata.SortRabbits.Rabbit"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.generic.Crate"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.generic.Cat"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.generic.Shippable"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="jdk.vm.ci.meta.Local"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="com.rktirtho.ocp.interfacing.Default"/>
+    <fullyQualifiedTypeName name="com.rktirtho.text.Square"/>
 </qualifiedTypeNameHistroy>
